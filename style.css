@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #646b63;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 5vw;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 4vw;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.card {
+    text-align: center;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.4);
+    transition-property: box-shadow;
+    transition-duration: 0.8s;
+    transform: scale(1.02);
+}
